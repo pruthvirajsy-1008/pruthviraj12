@@ -1,0 +1,86 @@
+/* ---- PAGE ---- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f9ff;   /* Light background */
+}
+
+/* Wrapper for center alignment */
+.page-wrapper {
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* ---- PROFILE CARD ---- */
+.profile-card {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #4b6cb7;
+  object-fit: cover;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.course {
+  margin: 5px 0 15px;
+  font-size: 16px;
+  color: #4b6cb7;
+  font-weight: normal;
+}
+
+/* Resume Button */
+.resume-btn {
+  padding: 10px 20px;
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.resume-btn:hover {
+  background: #35549a;
+}
+
+/* ---- DETAILS CARD ---- */
+.details-card {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.details-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.details-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details-card li {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
